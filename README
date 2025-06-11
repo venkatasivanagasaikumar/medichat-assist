@@ -1,0 +1,61 @@
+# 🩺 MediChat Assist
+
+**MediChat Assist** is a modern web application that provides medical chat assistance through a clean, responsive UI. Built with **React (or Next.js)**, styled using **Tailwind CSS**, and deployed via **Firebase Hosting**, this app combines real-time interaction with elegant design.
+
+## 🔗 Live Demo
+
+👉 [Visit Live App](https://studio--medichat-assist-uvxuj.us-central1.hosted.app)
+
+---
+
+## 🚀 Features
+
+- 💬 Medical chat or bot assistance
+- 🌙 Light and dark mode via Tailwind's `darkMode: 'class'`
+- 🎨 Theming support using CSS variables (HSL)
+- 🎞️ Smooth animations (accordion, message fade-in)
+- ⚡ Fast and secure hosting with Firebase
+- 📱 Responsive across all devices
+
+---
+
+## 🛠️ Tech Stack
+
+| Layer       | Technology                      |
+|-------------|----------------------------------|
+| Frontend    | React / Next.js (choose yours)   |
+| Styling     | Tailwind CSS (`tailwind.config.ts`) |
+| Animations  | `tailwindcss-animate` plugin     |
+| Hosting     | Firebase Hosting                 |
+
+---
+
+## 🧩 Tailwind Configuration Highlights
+
+Your `tailwind.config.ts` includes:
+
+- **Dark Mode** support (`darkMode: 'class'`)
+- **CSS variable-based theming** for consistent design
+- **Custom color tokens** for:
+  - `primary`, `secondary`, `accent`, `muted`
+  - `sidebar`, `popover`, `card`, `chart`, etc.
+- **Animations**:
+  - `accordion-down`
+  - `accordion-up`
+  - `message-in`
+
+---
+
+## 📁 Project Structure
+
+```bash
+medichat-assist/
+├── public/                 # Static files
+├── src/
+│   ├── app/                # App routing and layout (Next.js)
+│   ├── components/         # Reusable UI components
+│   └── pages/              # Page-level components (React or Next.js)
+├── tailwind.config.ts      # Tailwind configuration
+├── firebase.json           # Firebase hosting config
+├── package.json            # Project metadata and scripts
+└── README.md               # You're reading this!
